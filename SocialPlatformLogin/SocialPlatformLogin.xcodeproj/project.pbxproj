@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		766F52CF1EEDA14000A63016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F52CE1EEDA14000A63016 /* AppDelegate.swift */; };
+		766F52D11EEDA14000A63016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F52D01EEDA14000A63016 /* ViewController.swift */; };
+		766F52D41EEDA14000A63016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766F52D21EEDA14000A63016 /* Main.storyboard */; };
+		766F52D61EEDA14000A63016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766F52D51EEDA14000A63016 /* Assets.xcassets */; };
+		766F52D91EEDA14000A63016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766F52D71EEDA14000A63016 /* LaunchScreen.storyboard */; };
+		79197B7EF856980EFDE142AF /* Pods_SocialPlatformLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08354718B75A2008A4518A39 /* Pods_SocialPlatformLogin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08354718B75A2008A4518A39 /* Pods_SocialPlatformLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialPlatformLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E53E03BF8D6797A9A11874E /* Pods-SocialPlatformLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialPlatformLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialPlatformLogin/Pods-SocialPlatformLogin.release.xcconfig"; sourceTree = "<group>"; };
+		766F52CB1EEDA14000A63016 /* SocialPlatformLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialPlatformLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		766F52CE1EEDA14000A63016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		766F52D01EEDA14000A63016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		766F52D31EEDA14000A63016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		766F52D51EEDA14000A63016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		766F52D81EEDA14000A63016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		766F52DA1EEDA14000A63016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DF61B29EE8558F865F01ED /* Pods-SocialPlatformLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialPlatformLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialPlatformLogin/Pods-SocialPlatformLogin.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		766F52C81EEDA14000A63016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79197B7EF856980EFDE142AF /* Pods_SocialPlatformLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		766F52C21EEDA14000A63016 = {
+			isa = PBXGroup;
+			children = (
+				766F52CD1EEDA14000A63016 /* SocialPlatformLogin */,
+				766F52CC1EEDA14000A63016 /* Products */,
+				776F98D0EC51EC8DE6E15D0D /* Pods */,
+				E4B8386888B608A9E5CD4288 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		766F52CC1EEDA14000A63016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				766F52CB1EEDA14000A63016 /* SocialPlatformLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		766F52CD1EEDA14000A63016 /* SocialPlatformLogin */ = {
+			isa = PBXGroup;
+			children = (
+				766F52CE1EEDA14000A63016 /* AppDelegate.swift */,
+				766F52D01EEDA14000A63016 /* ViewController.swift */,
+				766F52D21EEDA14000A63016 /* Main.storyboard */,
+				766F52D51EEDA14000A63016 /* Assets.xcassets */,
+				766F52D71EEDA14000A63016 /* LaunchScreen.storyboard */,
+				766F52DA1EEDA14000A63016 /* Info.plist */,
+			);
+			path = SocialPlatformLogin;
+			sourceTree = "<group>";
+		};
+		776F98D0EC51EC8DE6E15D0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7DF61B29EE8558F865F01ED /* Pods-SocialPlatformLogin.debug.xcconfig */,
+				3E53E03BF8D6797A9A11874E /* Pods-SocialPlatformLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4B8386888B608A9E5CD4288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08354718B75A2008A4518A39 /* Pods_SocialPlatformLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		766F52CA1EEDA14000A63016 /* SocialPlatformLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 766F52DD1EEDA14000A63016 /* Build configuration list for PBXNativeTarget "SocialPlatformLogin" */;
+			buildPhases = (
+				F628C1824D2B03205674F398 /* [CP] Check Pods Manifest.lock */,
+				766F52C71EEDA14000A63016 /* Sources */,
+				766F52C81EEDA14000A63016 /* Frameworks */,
+				766F52C91EEDA14000A63016 /* Resources */,
+				F741F7E7AEA5FA1F0B6157FF /* [CP] Embed Pods Frameworks */,
+				58D23E488961549EBB9BCC8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialPlatformLogin;
+			productName = SocialPlatformLogin;
+			productReference = 766F52CB1EEDA14000A63016 /* SocialPlatformLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		766F52C31EEDA14000A63016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vasanthkumar V";
+				TargetAttributes = {
+					766F52CA1EEDA14000A63016 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8338EVL7GS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 766F52C61EEDA14000A63016 /* Build configuration list for PBXProject "SocialPlatformLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 766F52C21EEDA14000A63016;
+			productRefGroup = 766F52CC1EEDA14000A63016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				766F52CA1EEDA14000A63016 /* SocialPlatformLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		766F52C91EEDA14000A63016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766F52D91EEDA14000A63016 /* LaunchScreen.storyboard in Resources */,
+				766F52D61EEDA14000A63016 /* Assets.xcassets in Resources */,
+				766F52D41EEDA14000A63016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58D23E488961549EBB9BCC8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialPlatformLogin/Pods-SocialPlatformLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F628C1824D2B03205674F398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F741F7E7AEA5FA1F0B6157FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialPlatformLogin/Pods-SocialPlatformLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		766F52C71EEDA14000A63016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766F52D11EEDA14000A63016 /* ViewController.swift in Sources */,
+				766F52CF1EEDA14000A63016 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		766F52D21EEDA14000A63016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				766F52D31EEDA14000A63016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		766F52D71EEDA14000A63016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				766F52D81EEDA14000A63016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		766F52DB1EEDA14000A63016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		766F52DC1EEDA14000A63016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		766F52DE1EEDA14000A63016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DF61B29EE8558F865F01ED /* Pods-SocialPlatformLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8338EVL7GS;
+				INFOPLIST_FILE = SocialPlatformLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappfirm.SocialPlatformLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		766F52DF1EEDA14000A63016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E53E03BF8D6797A9A11874E /* Pods-SocialPlatformLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8338EVL7GS;
+				INFOPLIST_FILE = SocialPlatformLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theappfirm.SocialPlatformLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		766F52C61EEDA14000A63016 /* Build configuration list for PBXProject "SocialPlatformLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766F52DB1EEDA14000A63016 /* Debug */,
+				766F52DC1EEDA14000A63016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		766F52DD1EEDA14000A63016 /* Build configuration list for PBXNativeTarget "SocialPlatformLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				766F52DE1EEDA14000A63016 /* Debug */,
+				766F52DF1EEDA14000A63016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 766F52C31EEDA14000A63016 /* Project object */;
+}
